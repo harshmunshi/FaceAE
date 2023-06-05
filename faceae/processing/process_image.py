@@ -7,6 +7,7 @@ def preprocess_image(image: Union[NDArray, str]):
     # 1. Detect the face and square it without resizing
     # 2. Resize it to a given dimension
     # 3. Pass it through the face alignment and check for R, t values
+    # 4. Save these R, t information.
     # 4. Align the images -R, -t to bring them to center
     # 5. Note the position of lips in the aligned coordinate system
     # 6. Save the image and the list of landmarks along with the image as a separate file.
