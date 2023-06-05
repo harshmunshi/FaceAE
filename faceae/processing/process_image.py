@@ -8,9 +8,9 @@ def preprocess_image(image: Union[NDArray, str]):
     # 2. Resize it to a given dimension
     # 3. Pass it through the face alignment and check for R, t values
     # 4. Save these R, t information.
-    # 4. Align the images -R, -t to bring them to center
-    # 5. Note the position of lips in the aligned coordinate system
-    # 6. Save the image and the list of landmarks along with the image as a separate file.
+    # 5. Align the images -R, -t to bring them to center
+    # 6. Note the position of lips in the aligned coordinate system
+    # 7. Save the image and the list of landmarks along with the image as a separate file.
     raise NotImplementedError()
 
 def preprocess_folder(root: str):
